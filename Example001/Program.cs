@@ -6,10 +6,9 @@ int CountNumbersMoreZero(int size)
 {
     int sum = 0;
     int[] array = new int[size];
-    Console.WriteLine($"Введите значения по порядку: ");
-
         for (int i = 0; i < size; i++)
         {
+            Console.WriteLine($"Введите {i} число: ");
             array[i] = Convert.ToInt32(Console.ReadLine());
 
             if (array[i] > 0)
