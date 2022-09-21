@@ -24,4 +24,4 @@ Console.WriteLine("Введите количество чисел, которо�
 int size = Convert.ToInt32(Console.ReadLine());
 
 int sumResult = CountNumbersMoreZero(size);
-Console.WriteLine($"Количество введённых чисел больше равно {sumResult}.");
+Console.WriteLine($"Количество введённых чисел больше нуля равно {sumResult}.");
